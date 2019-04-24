@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="88dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/loginid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginBottom="-55dp"
+        android:text="Senha:"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/loginid"
+        android:layout_width="188dp"
+        android:layout_height="37dp"
+        android:layout_alignEnd="@+id/senhaid"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="2dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/senhaid"
+        android:layout_width="188dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="245dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/loginid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="6dp"
+        android:text="Login:"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:fontFamily="@font/adamina" />
+
+    <Button
+        android:id="@+id/cadastroid"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="58dp"
+        android:background="@android:color/background_light"
+        android:text="Fazer cadastro"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/fazer_login_id"
+        android:layout_width="145dp"
+        android:layout_height="52dp"
+        android:layout_alignStart="@+id/loginid"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-14dp"
+        android:layout_marginBottom="141dp"
+        android:background="@android:color/background_light"
+        android:text="Fazer login"
+        android:textSize="20sp" />
+
+</RelativeLayout>

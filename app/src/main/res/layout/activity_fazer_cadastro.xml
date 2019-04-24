@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fazer_cadastro">
+
+    <TextView
+        android:id="@+id/cad_empresa_id"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="258dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:text="Cadastro"
+        android:textColor="@color/colorAccent"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginRight="187dp"
+        android:text="Nome :"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cad_nome_id"
+        android:layout_width="146dp"
+        android:layout_height="31sp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="153dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="203dp"
+        android:text="Nome da empresa (opcional) :"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <Switch
+        android:id="@+id/colab_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="-147dp"
+        android:layout_marginRight="-147dp"
+        android:layout_marginBottom="234dp"
+        android:layout_toStartOf="@+id/cad_empresa_id"
+        android:layout_toLeftOf="@+id/cad_empresa_id"
+        android:background="@color/colorPrimaryDark"
+        android:text=" Colaborador"
+        android:textColor="@color/colorAccent" />
+
+    <Switch
+        android:id="@+id/invest_id"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/colab_id"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="187dp"
+        android:background="@color/colorPrimaryDark"
+        android:text=" Investidor"
+        android:textColor="@color/colorAccent" />
+
+    <Switch
+        android:id="@+id/empreed_id"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignEnd="@+id/colab_id"
+        android:layout_alignRight="@+id/colab_id"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="142dp"
+        android:background="@color/colorPrimaryDark"
+        android:text=" Empreendedor"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/cad_login_id"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignStart="@+id/cad_senha_id"
+        android:layout_alignLeft="@+id/cad_senha_id"
+        android:layout_alignBottom="@+id/cad_nome_id"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cad_empresa_id"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginEnd="-140dp"
+        android:layout_marginBottom="1dp"
+        android:text="Login (email) :"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="7dp"
+        android:text="Senha:"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cad_senha_id"
+        android:layout_width="143dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_alignBottom="@+id/cad_empresa_id"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cad_senha_id"
+        android:layout_alignBottom="@+id/colab_id"
+        android:text="Confirmar senha:"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/conf_senha_id"
+        android:layout_width="144dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/cad_senha_id"
+        android:layout_alignTop="@+id/invest_id"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/fazer_cad_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:text="Fazer cadastro" />
+</RelativeLayout>

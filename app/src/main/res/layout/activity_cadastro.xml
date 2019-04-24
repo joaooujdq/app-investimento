@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Cadastro">
+
+    <ImageView
+        android:id="@+id/fotoid"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignTop="@+id/nomeid"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="1dp"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/oficioid"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/nomeid"
+        android:layout_alignLeft="@+id/nomeid"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/nomeid"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tag1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        app:fontFamily="@font/adamina" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:layout_alignBottom="@+id/fotoid"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/like" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fotoid"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent"
+        android:text="999"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/tag1"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/tag3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginLeft="206dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/tag4"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/tag2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginLeft="206dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/tag3"
+        android:layout_width="160dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="62dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/tag2"
+        android:layout_width="160dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/tag1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="47dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/descricaoid"
+        android:layout_width="333dp"
+        android:layout_height="189dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="21dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        app:fontFamily="@font/adamina" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="197dp"
+        android:layout_height="31dp"
+        android:layout_alignStart="@+id/tag2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="229dp"
+        android:text="Descrição pessoal:"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:fontFamily="@font/adamina" />
+
+    <ImageView
+        android:id="@+id/configid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/oficioid"
+        android:layout_alignBottom="@+id/fotoid"
+        app:srcCompat="@drawable/download" />
+
+</RelativeLayout>
